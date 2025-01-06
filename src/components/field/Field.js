@@ -1,3 +1,4 @@
+import React from 'react';
 const Field =() => {
     const inputType = 'text'
     const placeholder = 'Typing...'
