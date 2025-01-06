@@ -13,7 +13,9 @@ const Field =() => {
 }
 
 const Button = () => {
-  return <button>click</button>
+  const user = false
+  const login = 'login'
+  return <button>{user ? 'logout' : login}</button>
 }
 
 function App() {
