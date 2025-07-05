@@ -1,13 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './components/app/App';
-import AppMain from './components/app/App-main';
+import Tasks from './tasks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <AppMain />
+    <Tasks />
   </React.StrictMode>
 );

@@ -1,0 +1,24 @@
+.gallery {
+    text-align: center;
+}
+.content {
+    padding-top: 40px;
+}
+.gallery h1 {
+    color: blue;
+}
+.image {
+    width: 200px;
+    height: 320px;
+    display: flex;
+}
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+.image:hover {
+    opacity: 0.8;
+}
